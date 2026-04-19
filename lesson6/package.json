@@ -1,0 +1,19 @@
+{
+  "name": "lesson6",
+  "version": "1.0.0",
+  "description": "this is external module",
+  "keywords": [
+    "external",
+    "module"
+  ],
+  "license": "ISC",
+  "author": "faridmia",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "random-fruits-name": "^1.10.3"
+  }
+}
