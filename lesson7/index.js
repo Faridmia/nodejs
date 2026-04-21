@@ -11,6 +11,9 @@ const server = http.createServer((req, res) => {
         case '/contact':
             filePath = './views/contact.html';
             break;
+        case '/error':
+            filePath = './views/error.html';
+            break;
         default:
             filePath = './views/index.html';
     }
