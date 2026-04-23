@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Area Calculator</title>
+</head>
+<body>
+
+    <h2>Area Calculator 🧮</h2>
+
+    <form action="/calculate" method="POST">
+
+        <label>Select Shape:</label><br>
+        <select name="shape">
+            <option value="rectangle">Rectangle</option>
+            <option value="triangle">Triangle</option>
+            <option value="circle">Circle</option>
+        </select><br><br>
+
+        <label>Value 1:</label><br>
+        <input type="number" name="value1" required><br><br>
+
+        <label>Value 2 (optional for circle):</label><br>
+        <input type="number" name="value2"><br><br>
+
+        <button type="submit">Calculate</button>
+    </form>
+
+</body>
+</html>
