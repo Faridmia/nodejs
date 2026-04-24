@@ -51,6 +51,8 @@ const bodyParser = require('body-parser');
 //     res.send(`Custom Header: ${myHeader}`);
 // });
 
+// http://localhost:3001/user 
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.post('/user', (req, res) => {
